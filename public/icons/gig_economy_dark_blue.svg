@@ -1,0 +1,62 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg * { transition: all .1s ease-out; }
+    .i24, .i32, .i40, .i60 { opacity: 0; }
+    @media all and (min-width: 17px) {
+      .i24 { opacity: 1 }
+      .i16, .i32, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 25px) {
+      .i32 { opacity: 1 }
+      .i16, .i24, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 33px) {
+      .i40 { opacity: 1 }
+      .i16, .i24, .i32, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 41px) {
+      .i60 { opacity: 1 }
+      .i16, .i24, .i32, .i40 { opacity: 0 }
+    }
+  </style>
+  <g class="i16" transform="scale(3.75)">
+    <rect width="16" height="16" rx="8" fill="#0051FF" />
+    <rect width="16" height="16" rx="4" fill="#000E2B" />
+    <path d="m2.13 6.67 6-4.8 6 4.8h-12Z" fill="#3D79FC" />
+    <path d="m2.13 8.26 6-4.8 6 4.8h-12Z" fill="#79A1F9" />
+    <path d="m2.13 10.57 6-4.8 6 4.8h-12Z" fill="#B6CAF5" />
+    <path d="m2.13 13.87 6-4.8 6 4.8h-12Z" fill="#fff" />
+  </g>
+  <g class="i24" transform="scale(2.5)">
+    <rect width="24" height="24" rx="8" fill="#0051FF" />
+    <rect width="24" height="24" rx="4" fill="#000E2B" />
+    <path d="m3.2 10 9-7.2 9 7.2h-18Z" fill="#3D79FC" />
+    <path d="m3.2 12.39 9-7.2 9 7.2h-18Z" fill="#79A1F9" />
+    <path d="m3.2 15.86 9-7.2 9 7.2h-18Z" fill="#B6CAF5" />
+    <path d="m3.2 20.8 9-7.2 9 7.2h-18Z" fill="#fff" />
+  </g>
+  <g class="i32" transform="scale(1.875)">
+    <rect width="32" height="32" rx="8" fill="#0051FF" />
+    <rect width="32" height="32" rx="4" fill="#000E2B" />
+    <path d="m4.27 13.33 12-9.6 12 9.6h-24Z" fill="#3D79FC" />
+    <path d="m4.27 16.52 12-9.6 12 9.6h-24Z" fill="#79A1F9" />
+    <path d="m4.27 21.15 12-9.6 12 9.6h-24Z" fill="#B6CAF5" />
+    <path d="m4.27 27.73 12-9.6 12 9.6h-24Z" fill="#fff" />
+  </g>
+  <g class="i40" transform="scale(1.5)">
+    <rect width="40" height="40" rx="8" fill="#0051FF" />
+    <rect width="40" height="40" rx="8" fill="#000E2B" />
+    <path d="m5.33 16.67 15-12 15 12h-30Z" fill="#3D79FC" />
+    <path d="m5.33 20.64 15-12 15 12h-30Z" fill="#79A1F9" />
+    <path d="m5.33 26.44 15-12 15 12h-30Z" fill="#B6CAF5" />
+    <path d="m5.33 34.67 15-12 15 12h-30Z" fill="#fff" />
+  </g>
+  <g class="i60">
+    <rect width="60" height="60" rx="8" fill="#0051FF" />
+    <rect width="60" height="60" rx="8" fill="#000E2B" />
+    <path d="M8 25 30.5 7 53 25H8Z" fill="#3D79FC" />
+    <path d="m8 30.97 22.5-18 22.5 18H8Z" fill="#79A1F9" />
+    <path d="m8 39.65 22.5-18 22.5 18H8Z" fill="#B6CAF5" />
+    <path d="m8 52 22.5-18L53 52H8Z" fill="#fff" />
+  </g>
+</svg>

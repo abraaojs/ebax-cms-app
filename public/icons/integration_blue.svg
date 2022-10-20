@@ -1,0 +1,52 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg * { transition: all .1s ease-out; }
+    .i24, .i32, .i40, .i60 { opacity: 0; }
+    @media all and (min-width: 17px) {
+      .i24 { opacity: 1 }
+      .i16, .i32, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 25px) {
+      .i32 { opacity: 1 }
+      .i16, .i24, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 33px) {
+      .i40 { opacity: 1 }
+      .i16, .i24, .i32, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 41px) {
+      .i60 { opacity: 1 }
+      .i16, .i24, .i32, .i40 { opacity: 0 }
+    }
+  </style>
+  <g class="i16" transform="scale(3.75)">
+    <rect x=".89" width="16" height="16" rx="4" fill="#0051FF"/>
+    <path d="M9.3 13.86V2.4l5.72 5.73-5.73 5.73Z" fill="#3D79FC"/>
+    <path d="M6.91 13.86V2.4l5.73 5.73-5.73 5.73Z" fill="#79A1F9"/>
+    <path d="M4.62 13.86V2.4l5.73 5.73-5.73 5.73Z" fill="#fff"/>
+  </g>
+  <g class="i24" transform="scale(2.5)">
+    <rect x=".4" width="24" height="24" rx="4" fill="#0051FF"/>
+    <path d="M13 20.79V3.6l8.6 8.6-8.6 8.59Z" fill="#3D79FC"/>
+    <path d="M9.44 20.79V3.6l8.6 8.6-8.6 8.59Z" fill="#79A1F9"/>
+    <path d="M6 20.79V3.6l8.6 8.6L6 20.78Z" fill="#fff"/>
+  </g>
+  <g class="i32" transform="scale(1.875)">
+    <rect x=".91" width="32" height="32" rx="4" fill="#0051FF"/>
+    <path d="M17.72 27.72V4.8l11.46 11.46-11.46 11.46Z" fill="#3D79FC"/>
+    <path d="M12.96 27.72V4.8l11.46 11.46-11.46 11.46Z" fill="#79A1F9"/>
+    <path d="M8.38 27.72V4.8l11.45 11.46L8.38 27.72Z" fill="#fff"/>
+  </g>
+  <g class="i40" transform="scale(1.5)">
+    <rect x=".42" width="40" height="40" rx="8" fill="#0051FF"/>
+    <path d="M21.43 34.65V6l14.32 14.32-14.32 14.33Z" fill="#3D79FC"/>
+    <path d="M15.48 34.65V6l14.33 14.32-14.33 14.33Z" fill="#79A1F9"/>
+    <path d="M9.75 34.65V6l14.33 14.32L9.75 34.65Z" fill="#fff"/>
+  </g>
+  <g class="i60">
+    <rect x=".93" width="60" height="60" rx="8" fill="#0051FF"/>
+    <path d="M32.45 51.97V9l21.48 21.49-21.48 21.48Z" fill="#3D79FC"/>
+    <path d="M23.53 51.97V9L45 30.49 23.53 51.97Z" fill="#79A1F9"/>
+    <path d="M14.93 51.97V9l21.48 21.49-21.48 21.48Z" fill="#fff"/>
+  </g>
+</svg>

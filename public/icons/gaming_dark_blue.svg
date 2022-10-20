@@ -1,0 +1,62 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg * { transition: all .1s ease-out; }
+    .i24, .i32, .i40, .i60 { opacity: 0; }
+    @media all and (min-width: 17px) {
+      .i24 { opacity: 1 }
+      .i16, .i32, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 25px) {
+      .i32 { opacity: 1 }
+      .i16, .i24, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 33px) {
+      .i40 { opacity: 1 }
+      .i16, .i24, .i32, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 41px) {
+      .i60 { opacity: 1 }
+      .i16, .i24, .i32, .i40 { opacity: 0 }
+    }
+  </style>
+  <g class="i16" transform="scale(3.75)">
+    <rect width="16" height="16" rx="8" fill="#0051FF"/>
+    <rect width="16" height="16" rx="4" fill="#000E2B"/>
+    <path d="M13.87 2.28h-12v12h12v-12Z" fill="#3D79FC"/>
+    <path d="M12.15 4H3.58v8.56h8.57V4Z" fill="#79A1F9"/>
+    <path d="M10.44 5.7H5.3v5.15h5.14V5.7Z" fill="#B6CAF5"/>
+    <path d="M8.72 7.42H7.01v1.71h1.71V7.42Z" fill="#fff"/>
+  </g>
+  <g class="i24" transform="scale(2.5)">
+    <rect width="24" height="24" rx="8" fill="#0051FF"/>
+    <rect width="24" height="24" rx="4" fill="#000E2B"/>
+    <path d="M20.8 3.34h-18v18h18v-18Z" fill="#3D79FC"/>
+    <path d="M18.23 5.92H5.37v12.85h12.86V5.92Z" fill="#79A1F9"/>
+    <path d="M15.66 8.49H7.94v7.71h7.72V8.5Z" fill="#B6CAF5"/>
+    <path d="M13.09 11.06H10.5v2.57h2.58v-2.57Z" fill="#fff"/>
+  </g>
+  <g class="i32" transform="scale(1.875)">
+    <rect width="32" height="32" rx="8" fill="#0051FF"/>
+    <rect width="32" height="32" rx="4" fill="#000E2B"/>
+    <path d="M27.73 4.27h-24v24h24v-24Z" fill="#3D79FC"/>
+    <path d="M24.3 7.7H7.17v17.14h17.15V7.7Z" fill="#79A1F9"/>
+    <path d="M20.88 11.12H10.59v10.29h10.29V11.12Z" fill="#B6CAF5"/>
+    <path d="M17.45 14.55h-3.43v3.43h3.43v-3.43Z" fill="#fff"/>
+  </g>
+  <g class="i40" transform="scale(1.5)">
+    <rect width="40" height="40" rx="8" fill="#0051FF"/>
+    <rect width="40" height="40" rx="8" fill="#000E2B"/>
+    <path d="M34.67 5.33h-30v30h30v-30Z" fill="#3D79FC"/>
+    <path d="M30.38 9.62H8.95v21.43h21.43V9.62Z" fill="#79A1F9"/>
+    <path d="M26.1 13.9H13.24v12.86H26.1V13.9Z" fill="#B6CAF5"/>
+    <path d="M21.81 18.2h-4.29v4.28h4.3v-4.29Z" fill="#fff"/>
+  </g>
+  <g class="i60">
+    <rect width="60" height="60" rx="8" fill="#0051FF"/>
+    <rect width="60" height="60" rx="8" fill="#000E2B"/>
+    <path d="M52 8H7v45h45V8Z" fill="#3D79FC"/>
+    <path d="M45.57 14.43H13.43v32.14h32.14V14.43Z" fill="#79A1F9"/>
+    <path d="M39.14 20.86H19.86v19.28h19.28V20.86Z" fill="#B6CAF5"/>
+    <path d="M32.72 27.29h-6.43v6.43h6.43v-6.43Z" fill="#fff"/>
+  </g>
+</svg>
