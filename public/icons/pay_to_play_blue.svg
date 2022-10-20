@@ -1,0 +1,57 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg * { transition: all .1s ease-out; }
+    .i24, .i32, .i40, .i60 { opacity: 0; }
+    @media all and (min-width: 17px) {
+      .i24 { opacity: 1 }
+      .i16, .i32, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 25px) {
+      .i32 { opacity: 1 }
+      .i16, .i24, .i40, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 33px) {
+      .i40 { opacity: 1 }
+      .i16, .i24, .i32, .i60 { opacity: 0 }
+    }
+    @media all and (min-width: 41px) {
+      .i60 { opacity: 1 }
+      .i16, .i24, .i32, .i40 { opacity: 0 }
+    }
+  </style>
+  <g class="i16" transform="scale(3.75)">
+    <rect x=".41" width="16" height="16" rx="4" fill="#0051FF" />
+    <path d="M6.55 3.47H3.88v9.06h2.67V3.47Z" fill="#3D79FC" />
+    <path d="M7.88 3.47H5.21v9.06h2.67V3.47Z" fill="#79A1F9" />
+    <path d="M9.43 12.53V3.47l4.7 4.19c.2.18.2.5 0 .68l-4.7 4.2Z" fill="#fff" />
+    <path d="M9.43 3.47H6.77v9.06h2.66V3.47Z" fill="#B6CAF5" />
+  </g>
+  <g class="i24" transform="scale(2.5)">
+    <rect x=".41" width="24" height="24" rx="4" fill="#0051FF" />
+    <path d="M9.61 5.2h-4v13.6h4V5.2Z" fill="#3D79FC" />
+    <path d="M11.61 5.2h-4v13.6h4V5.2Z" fill="#79A1F9" />
+    <path d="M13.94 18.8V5.2L21 11.48c.3.28.3.76 0 1.04l-7.05 6.28Z" fill="#fff" />
+    <path d="M13.94 5.2h-4v13.6h4V5.2Z" fill="#B6CAF5" />
+  </g>
+  <g class="i32" transform="scale(1.875)">
+    <rect x=".41" width="32" height="32" rx="4" fill="#0051FF" />
+    <path d="M12.68 6.93H7.35v18.14h5.33V6.93Z" fill="#3D79FC" />
+    <path d="M15.35 6.93H10v18.14h5.34V6.93Z" fill="#79A1F9" />
+    <path d="M18.46 25.07V6.93l9.38 8.38c.4.36.4 1.02 0 1.38l-9.38 8.38Z" fill="#fff" />
+    <path d="M18.46 6.93h-5.34v18.14h5.34V6.93Z" fill="#B6CAF5" />
+  </g>
+  <g class="i40" transform="scale(1.5)">
+    <rect x=".41" width="40" height="40" rx="8" fill="#0051FF" />
+    <path d="M15.75 8.67H9.08v22.66h6.67V8.67Z" fill="#3D79FC" />
+    <path d="M19.08 8.67h-6.66v22.66h6.66V8.67Z" fill="#79A1F9" />
+    <path d="M22.97 31.33V8.67L34.7 19.14c.5.45.5 1.27 0 1.72L22.97 31.33Z" fill="#fff" />
+    <path d="M22.97 8.67H16.3v22.66h6.67V8.67Z" fill="#B6CAF5" />
+  </g>
+  <g class="i60">
+    <rect x=".41" width="60" height="60" rx="8" fill="#0051FF" />
+    <path d="M23.41 13h-10v34h10V13Z" fill="#3D79FC" />
+    <path d="M28.42 13h-10v34h10V13Z" fill="#79A1F9" />
+    <path d="M34.24 47V13l17.6 15.71c.76.68.76 1.9 0 2.58L34.24 47Z" fill="#fff" />
+    <path d="M34.24 13h-10v34h10V13Z" fill="#B6CAF5" />
+  </g>
+</svg>

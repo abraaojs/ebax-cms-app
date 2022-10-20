@@ -1,0 +1,165 @@
+/* This CSS is common to all pages */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Topol';
+  src: url('/fonts/Topol-Bold.woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Regular.woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Bold.woff2');
+  font-weight: bold;
+}
+
+//Default CSS Properties to Swiper
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
+//CSS Properties to Blue-Swiper
+.blue-swiper > * .swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.blue-swiper > * .swiper-pagination-bullet-active {
+  background-color: #0051ff !important;
+}
+
+.section_4,
+.hero_banner_11 > * .swiper-scrollbar-drag {
+  background: #fff;
+}
+
+.section_15,
+.section_39 > * .swiper-scrollbar-drag {
+  background: #0051ff;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: var(--bs-3);
+  pointer-events: none;
+  --bar: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Topol, sans-serif;
+  letter-spacing: -0.04em;
+  line-height: 0.93em;
+}
+nav,
+footer,
+section {
+  pointer-events: auto;
+}
+
+.nav-open {
+ left: 0%;
+ opacity: 100%;
+ transition: 0.5s;
+}
+
+.nav-close {
+  transition: 0.5s;
+  left: 100%; 
+  opacity: 0%;
+}
+
+::-webkit-scrollbar {
+  width: var(--bar);
+  height: calc(var(--bar) - 4px);
+}
+
+body::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 0;
+}
+body::-webkit-scrollbar-thumb {
+  border: 2px solid #e2e8f0;
+}
+body::-webkit-scrollbar-thumb:hover {
+  border: 1px solid #e2e8f0;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: var(--bar);
+}
+
+.open-container {
+  opacity: 1;
+  left: 0%;
+  top: 120px;
+  transition: 1s;
+}
+
+.close-container {
+  transition: 1s;
+  top: -100%; 
+  opacity: 0;
+}
+
+.open-container-medium {
+  opacity: 1;
+  left: 0%;
+  top: 170px;
+  transition: 0.5s;
+}
+
+.close-container-medium {
+  transition: 0.5s;
+  top: -100%; 
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--prm);
+  border-radius: 20px;
+  border: 3px solid #0000;
+}
+.section {
+  margin-bottom: calc(-1 * var(--rd-sct));
+}
+.-mb-sct {
+  margin-bottom: calc(-1 * var(--rd-sct));
+}
+
+.button-arrow-icon::after {
+  content: '⟶';
+  padding: 8px;
+}
+
+.select-input {
+  padding: 8px 16px;
+  width: 100%;
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='11' version='1.1' viewBox='0 0 17 11'%3E%3Cpath d='m2 2 6 7 7-7' style='fill:none%3Bstroke:%23AAA%3Bstroke-width:2%3Bstroke-linecap:round%3Bstroke-linejoin:round%3B'/%3E%3C/svg%3E")
+    no-repeat right 1rem center;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+}
+
+section:last-child {
+  margin-bottom: 0px !important;
+}
+@import './Hubspot.scss';
